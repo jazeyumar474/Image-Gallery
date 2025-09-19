@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery - Jazey Umar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="full-img" id="fullImgBox">
+        <img src="images/img1.jpg" id="fullImg" alt="img">
+        <button onclick="closeFullImg()"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="img-gallery">
+        <img src="images/img1.jpg" onclick="openFullImg(this.src)" alt="img">
+        <img src="images/img2.jpg" onclick="openFullImg(this.src)" alt="img">
+        <img src="images/img3.jpg" onclick="openFullImg(this.src)" alt="img">
+        <img src="images/img4.jpg" onclick="openFullImg(this.src)" alt="img">
+        <img src="images/img5.jpg" onclick="openFullImg(this.src)" alt="img">
+        <img src="images/img6.jpg" onclick="openFullImg(this.src)" alt="img">
+        <img src="images/img7.jpg" onclick="openFullImg(this.src)" alt="img">
+        <img src="images/img8.jpg" onclick="openFullImg(this.src)" alt="img">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
